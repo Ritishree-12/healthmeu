@@ -1,7 +1,7 @@
 
 import './App.css'
+import LabLogIn from './authentication/LabLogIn';
 import Navbar from './components/Navbar';
-// import Login from './components/Login';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
 <Navbar/>
 {/* <Navbar/> */}
 <div className='container'>
-{/* <Login heading="Welcome to HealthMeU"/> */}
+  <LabLogIn heading="Welcome to Lab"/>
 </div>
 
  </>

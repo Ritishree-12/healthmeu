@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Login = (props) => {
+const PharmacyLogin = () => {
   return (
-   <div className="card" style={{width: "18rem"}}>
+    <div className="card" style={{width: "18rem"}}>
     <p>{props.heading}</p>
     <div>
    <div className="mb-3">
@@ -21,4 +21,4 @@ const Login = (props) => {
   )
 }
 
-export default Login
+export default PharmacyLogin
