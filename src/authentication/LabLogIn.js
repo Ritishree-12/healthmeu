@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import {
   MDBContainer,
   MDBRow,
@@ -77,7 +77,7 @@ const LabLogIn = () => {
   return (
     <>
       {/* <Lab/> */}
-      <MDBContainer fluid>
+      <MDBContainer fluid className="body">
         <form onSubmit={submitHandler}>
           <MDBRow className="d-flex justify-content-center align-items-center body h-100 ">
             <MDBCol col="12">

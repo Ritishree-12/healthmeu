@@ -8,6 +8,9 @@ import Navbar from "./components/Navbar";
 import Lab from "./Pages/Lab";
 import Pharmacy from "./Pages/Pharmacy";
 import Opd from "./Pages/Opd";
+import DayBook from "./ReportPages/DayBook";
+import DoctorWise from "./ReportPages/DoctorWise";
+import Rsby from "./ReportPages/Rsby";
 
 
 function App() {
@@ -22,6 +25,9 @@ function App() {
         <Route exact path="/lab" element={<Lab/>}></Route>
         <Route exact path="/pharmacy" element={<Pharmacy/>}></Route>
         <Route exact path="/opd" element={<Opd/>}></Route>
+        <Route exact path="/day_book" element={<DayBook/>}></Route>
+        <Route exact path="/doctor_wise" element={<DoctorWise/>}></Route>
+        <Route exact path="/under_rsby" element={<Rsby/>}></Route>
       </Routes>
   
     </>
