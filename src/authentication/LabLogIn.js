@@ -24,7 +24,7 @@ const LabLogIn = () => {
 
   const getApi = async () => {
     try {
-      const res = await axios.get();
+      const res = await axios.get('');
       console.log("data", res.data);
     } catch (error) {
       console.error("API Error:", error);

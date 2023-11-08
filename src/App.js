@@ -10,7 +10,10 @@ import Pharmacy from "./Pages/Pharmacy";
 import Opd from "./Pages/Opd";
 import DayBook from "./ReportPages/DayBook";
 import DoctorWise from "./ReportPages/DoctorWise";
-import Rsby from "./ReportPages/Rsby";
+import TestWiseReport from "./ReportPages/TestWiseReport";
+import DaybookTable from "./ReportPages/DaybookTable";
+import DoctorwiseTableData from "./ReportPages/DoctorwiseTableData";
+import TestWise from "./ReportPages/Testwise";
 
 
 function App() {
@@ -27,7 +30,10 @@ function App() {
         <Route exact path="/opd" element={<Opd/>}></Route>
         <Route exact path="/day_book" element={<DayBook/>}></Route>
         <Route exact path="/doctor_wise" element={<DoctorWise/>}></Route>
-        <Route exact path="/under_rsby" element={<Rsby/>}></Route>
+        <Route exact path="/day_book_data" element={<DaybookTable/>}></Route>
+        <Route exact path="/doctors__wise_data" element={<DoctorwiseTableData/>}></Route>
+        <Route exact path="/testwise" element={<TestWise/>}></Route>
+        <Route exact path="/testwise_report" element={<TestWiseReport/>}></Route>
       </Routes>
   
     </>

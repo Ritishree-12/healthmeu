@@ -4,7 +4,7 @@ import FooterPages from "../components/FooterPages";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-export default function DayBook() {
+export default function TestWise() {
   return (
     <>
     <div>
@@ -25,7 +25,7 @@ export default function DayBook() {
           <div className="row justify-content-center">
             <div className="col-md-6 mx-auto">
               <div className="cardd" >
-                <h4>Day Book</h4>
+                <h4>Test Wise</h4>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-md-6">
@@ -38,7 +38,7 @@ export default function DayBook() {
                     </div>
                   </div>
                   <div className="button-container">
-                  <Link to='/day_book_data'><button type="button" className="btn btn-primary"> Submit </button></Link>
+                  <Link to='/testwise_report'><button type="button" className="btn btn-primary"> Submit </button></Link>
                      
                     <button type="button" className="btn btn-secondary">
                       Back

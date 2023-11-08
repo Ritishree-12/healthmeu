@@ -1,0 +1,93 @@
+.cardd {
+  width: 100%;
+  max-width: 450px;
+  height:auto; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+  /* Add a bit of padding to the top to create space for the title */
+  padding-top: 40px;
+}
+
+.cardd h4 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.cardd .card-body {
+  padding-top: 20px; /* Adjust as needed */
+}
+
+.cardd label.form-label {
+  font-weight: bold;
+}
+
+.cardd input.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cardd .button-container {
+  margin-top: 20px;
+}
+
+.cardd button.btn {
+  margin-right: 10px;
+}
+
+.cardd button.btn-primary {
+  background-color: #488b9c;
+  border: none;
+  color: #fff;
+}
+
+.cardd button.btn-secondary {
+  background-color: #ddd;
+  border: none;
+  color: #333;
+}
+
+.cardd button.btn:hover {
+  transform: scale(1.05); /* Add a slight scale effect on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+
+/* daystyle.css */
+.table-container {
+  margin: 20px;
+  margin-top: 120px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.custom-table th, .custom-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.custom-table tr:hover {
+  background-color: #ddd;
+}
